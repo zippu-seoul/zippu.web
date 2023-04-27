@@ -9,13 +9,13 @@
    - 🔜 FrontEnd: 원석환, 서동이
    - 🔙 BackEnd: 이현수, 황시우
 
-💻 🌸 Front-end Work Details
+💻 Front-end Work Details
 
 
-💻 🌼 Back-end Work Details
+💻 Back-end Work Details
    
 
-🔧 기술 스택
+#🔧 기술 스택
 ## 🔧 Skills
 - ![Next.js](https://img.shields.io/badge/next.js-20232A?style=for-the-badge&logo=nextdotjs&logoColor=#000000)
 - ![React native](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
