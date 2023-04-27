@@ -23,6 +23,7 @@
 - ![React native](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![Reactquery](https://img.shields.io/badge/reactquery-20232A?style=for-the-badge&logo=reactquery&logoColor=#FF4154)
 - ![Typescript](https://img.shields.io/badge/typescript-20232A?style=for-the-badge&logo=typescript&logoColor=#3178C6)
+- ![emtion.js](https://img.shields.io/badge/emotion.js-20232A?style=for-the-badge&logoColor=#EF2D5E)
 
 ## 🔧 협업 도구
 
