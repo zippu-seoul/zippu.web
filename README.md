@@ -1,14 +1,13 @@
 # 15-beside-nextjs
 ---
 ##  프로젝트 소개
-React를 사용한 맞춤형 영양제 사이트 'Care of'(https://takecareof.com/) 웹사이트 클론.
 
 - 프로젝트 기간: 2023년 04월 27일 ~ 
 - 프로젝트 참가자 (Front & Back)
-기획:
-:art:디자인: 
-🔜 FrontEnd: 원석환, 서동이
-🔙 BackEnd: 이현수, 황시우
+   - 기획:
+   - :art:디자인: 
+   - 🔜 FrontEnd: 원석환, 서동이
+   - 🔙 BackEnd: 이현수, 황시우
 
 💻 🌸 Front-end Work Details
 
