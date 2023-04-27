@@ -18,7 +18,7 @@ React를 사용한 맞춤형 영양제 사이트 'Care of'(https://takecareof.co
 
 🔧 기술 스택
 ## 🔧 Skills
-- ![Next.js](https://img.shields.io/badge/nextdotjs-20232A?style=for-the-badge&logo=nextdotjs&logoColor=#000000)
+- ![Next.js](https://img.shields.io/badge/next.js-20232A?style=for-the-badge&logo=nextdotjs&logoColor=#000000)
 - ![React native](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![Reactquery](https://img.shields.io/badge/reactquery-20232A?style=for-the-badge&logo=reactquery&logoColor=#FF4154)
 - ![Typescript](https://img.shields.io/badge/typescript-20232A?style=for-the-badge&logo=typescript&logoColor=#3178C6)
