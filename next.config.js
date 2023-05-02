@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  compiler:{
+    emotion:{
+      autoLabel:'always',
+      sourceMap:false,
+    }
+  }
 }
 
 module.exports = nextConfig
