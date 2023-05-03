@@ -1,14 +1,15 @@
 import React, { FC } from 'react';
-import GlobalStyle from '@styles/Globalstyles';
+import { globalStyles } from '@styles/Globalstyles';
 import { ThemeProvider } from '@emotion/react';
 import theme from '@styles/theme';
 
-import type { AppProps } from 'next/app';
+import { AppProps } from 'next/app';
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
+  console.log('app<<<');
   return (
     <>
-      <GlobalStyle />
+      {globalStyles}
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
       </ThemeProvider>
