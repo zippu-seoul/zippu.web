@@ -19,7 +19,7 @@ export const globalStyles = (
 
 export const basicStyles = css`
   background-color: white;
-  color: cornflowerblue;
+  color: #6495ed;
   border: 1px solid lightgreen;
   border-right: none;
   border-bottom: none;
@@ -31,9 +31,9 @@ export const basicStyles = css`
 
 export const hoverStyles = css`
   &:hover {
-    color: white;
+    color: #ffffff;
     background-color: lightgray;
-    border-color: aqua;
+    border-color: #00ffff;
     box-shadow: -15px -15px 0 0 aqua, -30px -30px 0 0 cornflowerblue;
   }
 `;
@@ -54,7 +54,7 @@ export const Combined = styled.div`
   ${basicStyles};
   ${hoverStyles};
   & code {
-    background-color: linen;
+    background-color: #faf0e6;
   }
 `;
 export const Animated = styled.div`
