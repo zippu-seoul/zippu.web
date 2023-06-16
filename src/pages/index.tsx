@@ -21,7 +21,9 @@ export default function Invite(props: any) {
         <title>{props.title}</title>
         <meta name="description" content={props.description} />
         <meta name="keywords" content={props.tags} />
-        <meta property="og:title" content={`${props.title} | chanstory`} />
+
+
+        <meta property="og:title" content={props.title} />
         <meta property="og:image" content="/ogimage.png" />
         <meta property="og:description" content={props.description} />
       </Head>
