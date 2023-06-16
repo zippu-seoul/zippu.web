@@ -26,6 +26,7 @@ export default function Invite(props: any) {
         <meta property="og:title" content={props.title} />
         <meta property="og:image" content="/ogimage.png" />
         <meta property="og:description" content={props.description} />
+        <meta property="og:url" content="Canonical link preview URL"></meta>
       </Head>
       {/* <div>앱에서 확인해 주세요</div> */}
     </div>
