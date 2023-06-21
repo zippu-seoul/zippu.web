@@ -6,7 +6,6 @@ export const getServerSideProps = async function ({
 }: NextPageContext) {
   return {
     props: {
-      name: query?.name || '',
       id: query?.id || '',
     },
   };
@@ -21,11 +20,11 @@ export default function Result(props: any) {
 
         <meta
           name="description"
-          content={`[${props.name}] 에서는 누가 지각했을까?`}
+          content={`지금 어디야? 위치 공유가 되지 않고 있어요!`}
         />
         <meta
           property="og:description"
-          content={`[${props.name}] 에서는 누가 지각했을까?`}
+          content={`지금 어디야? 위치 공유가 되지 않고 있어요!`}
         />
         <meta property="og:image" content="/ogimage.png" />
         {/* <meta property="og:url" content="Canonical link preview URL"></meta> */}
