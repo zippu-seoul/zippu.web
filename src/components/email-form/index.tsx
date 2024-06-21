@@ -131,6 +131,9 @@ const EmailForm: FC = () => {
           onChange={(e) => setMessage(e.currentTarget.value)}
         />
       </LabelAndInputContaier>
+      <a href="https://melodious-tangelo-3ac.notion.site/5699a6ca248b440795b97ab10e08b5d3">
+        Zippu 개인정보처리 이용방침 읽어보기
+      </a>
       <Button disabled={!name || !email || !message} onClick={onSubmit}>
         제출하기
       </Button>
