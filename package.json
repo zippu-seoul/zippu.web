@@ -20,6 +20,7 @@
     "babel-loader": "^9.1.2",
     "dotenv": "^9.0.2",
     "next": "12.3.4",
+    "nodemailer": "^6.9.14",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recoil": "^0.7.6",
