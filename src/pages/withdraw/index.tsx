@@ -1,9 +1,8 @@
 import Head from 'next/head';
 import { NextPageContext } from 'next/types';
-export const getServerSideProps = async function ({
-  req,
-  query,
-}: NextPageContext) {
+import EmailForm from 'src/components/email-form';
+
+export const getServerSideProps = async function ({ query }: NextPageContext) {
   return {
     props: {
       group: query?.group || '',
@@ -16,7 +15,6 @@ export const getServerSideProps = async function ({
 export default function Result(props: any) {
   return (
     <div style={{ display: 'flex', flex: 1 }}>
-      <img src="/ogimage.png" width={'100%'}></img>
       <Head>
         <title>{`[지각뿌셔]`}</title>
         <meta property="og:title" content={`[지각뿌셔]`} />
@@ -27,6 +25,7 @@ export default function Result(props: any) {
         />
         <meta property="og:image" content="/ogimage.png" />
       </Head>
+      <EmailForm />
     </div>
   );
 }
